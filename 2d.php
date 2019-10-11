@@ -1,0 +1,10 @@
+<?php
+function calcular($a,$b){
+	echo ($a+$b).'<br>';
+	echo ($a-$b).'<br>';
+	echo ($a*$b).'<br>';
+	if ($b!=0) 
+		echo ($a/$b).'<br>';
+}
+calcular(7,3);
+calcular(4,0);
